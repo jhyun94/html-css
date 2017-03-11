@@ -58,3 +58,43 @@ body {
 .nav ul li:hover {
   background-color: blue;
 }
+.supporting {
+  margin: 50px 0;
+}
+
+.supporting img {
+  float: left;
+  height: 100px;
+  padding: 50px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.sub-main {
+  background: url("https://s3.amazonaws.com/codecademy-content/projects/innovation-cloud/jumbotron_bg.jpg") no-repeat center center;
+  background-size: cover;
+  height: 600px;
+}
+
+.sub-main .container {
+  text-align: right;
+  color: #fff;
+  position: relative;
+  top: 120px;
+}
+
+.sub-main p {
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: #000;
+}
+
+.footer p {
+  color: #fff;
+  padding: 30px;
+  margin: 0;
+}
