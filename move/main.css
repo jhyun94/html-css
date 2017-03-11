@@ -39,3 +39,34 @@ body {
   text-decoration: none;
 }
 
+.btn-main:hover {
+  background-color: orange;
+  color: #000;
+}
+
+.main-support {
+  background-color: #000;
+}
+
+.main-support h2 {
+  color: orange;
+  margin-top: 0;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.main-support p {
+  color: #fff;
+}
+
+.col {
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.clearfix {
+  clear: both;
+}
