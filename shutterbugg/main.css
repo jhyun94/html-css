@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 80%;
+  margin:0 auto;
+  padding: 0 auto;
+}
+
+.header {
+  background: url("https://s3.amazonaws.com/codecademy-content/projects/shutterbugg/intro.jpg")no-repeat center center;
+  background-size: cover;
+  height: 400px;
+}
+
+.header h1 {
+  margin-top: 0;
+  font-size: 60px;
+}
+
+.header p {
+  font-size: 20px;
+  margin-bottom: 26px;
+}
+
+.header .container {
+  position: relative;
+  top: 80px;
+}
+
+.header a {
+  background-color: #EE445F;
+  padding: 10px 30px;
+  color: #fff;
+}
+
+.header a:hover {
+  color: #fff;
+  background-color: #EE445F;
+  text-decoration: none;
+}
