@@ -70,3 +70,71 @@ body {
 .clearfix {
   clear: both;
 }
+
+.middle {
+  background: url("https://s3.amazonaws.com/codecademy-content/projects/move/feature.jpg")no-repeat center center;
+  background-size: cover;
+  height: 600px;
+}
+
+.middle .container {
+  position: relative;
+  text-align: center;
+  top: 48%;
+}
+
+.middle h1 {
+  margin-top: 0;
+  color: #fff;
+  font-size: 60px;
+}
+
+.middle-support {
+  background-color: #000;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.middle-support h1 {
+  color: orange;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+.middle-support p {
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+.btn-secondary {
+  padding: 10px 30px;
+  color: #000;
+  background-color: #fff;
+  text-decoration: none;
+}
+
+.btn-secondary:hover {
+  background-color: orange;
+}
+
+
+.bot {
+  background: url("https://s3.amazonaws.com/codecademy-content/projects/move/footer.jpg")no-repeat center center;
+  background-size: cover;
+  height: 600px;
+}
+
+.bot h1 {
+  color: #fff;
+  margin-top: 0;
+}
+
+.bot .container {
+  position: relative;
+  text-align: center;
+  top: 48%;
+}
+
+
+
+
