@@ -46,6 +46,8 @@ body {
 
 .main-support {
   background-color: #000;
+  text-align: center;
+  
 }
 
 .main-support h2 {
@@ -62,7 +64,6 @@ body {
 .col {
   display: inline-block;
   width: 30%;
-  text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
 }
